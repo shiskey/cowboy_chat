@@ -1,0 +1,7 @@
+%% Simple chat implementation powered by cowboy
+
+rebar get-deps
+rebar compile generate
+./rel/chat/bin/chat console
+
+%% enjoy

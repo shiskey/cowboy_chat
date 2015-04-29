@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Chat!</title>
+        <meta charset="utf-8">
+
+        <style>
+        body{ font-family: helvetica; color: #333; background-color: #fefefe;
+        margin-left: 25%; width: 50%; }
+        p, textarea{ padding: 0; }
+        p, button, textarea{ width: 100%; margin: 1em 0; }
+        label{ float: left; width: 45%; }
+        input{ width: 50%; float: right; }
+        input, textarea{ border: 1px solid #ddd; }
+        </style>
+    </head>
+
+     <body>
+          <p>
+              <label for="input">Nickname</label>
+              <input type="text" id="nick" value="anonymous"/>
+          </p>
+            <textarea id="output" cols="80" rows="25"></textarea>
+          <p>
+              <label for="input">Input</label>
+              <input type="text" id="input"/>
+              <button id="send">Send</button>
+          </p>
+
+          <script src="js/libs/jquery.js"></script>
+          <script src="js/libs/bullet.js"></script>
+          <script src="js/app.js"></script>
+
+     </body>
+</html>

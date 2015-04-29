@@ -1,0 +1,10 @@
+{application,chat,
+             [{description,"simple web chat application"},
+              {vsn,"1"},
+              {registered,[]},
+              {applications,[kernel,stdlib,cowboy,bullet]},
+              {mod,{chat_app,[]}},
+              {env,[]},
+              {modules,[chat_app,chat_sup,disrupt_channel,
+                        disrupt_chat_handler,event_handler,index_handler,
+                        subscriptor]}]}.
