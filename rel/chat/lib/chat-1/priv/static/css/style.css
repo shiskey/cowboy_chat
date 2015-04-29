@@ -1,7 +1,0 @@
-body{ font-family: helvetica; color: #333; background-color: #fefefe;
-    margin-left: 25%; width: 50%; }
-p, textarea{ padding: 0; }
-p, button, textarea{ width: 100%; margin: 1em 0; }
-label{ float: left; width: 45%; }
-input{ width: 50%; float: right; }
-input, textarea{ border: 1px solid #ddd; }
