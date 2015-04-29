@@ -4,4 +4,4 @@ rebar get-deps
 rebar compile generate
 ./rel/chat/bin/chat console
 
-%% enjoy
+%% enjoy at localhost:8000
